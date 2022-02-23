@@ -1,0 +1,17 @@
+{
+    "name": "galih/php-rabbitmq",
+    "autoload": {
+        "psr-4": {
+            "Galih\\PhpRabbitmq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Galih Anggoro Jati",
+            "email": "anggorogalih8@gmail.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.1"
+    }
+}
