@@ -7,6 +7,7 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
 // create conneciton
+// $connection = new AMQPStreamConnection('10.30.8.40', 15672, 'admin', 'Kopnus789', '/my_vhost');
 $connection = new AMQPStreamConnection('127.0.0.1', 5672, 'guest', 'guest', '/my_vhost');
 $channel = $connection->channel();
 
